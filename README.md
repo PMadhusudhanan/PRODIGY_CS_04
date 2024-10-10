@@ -4,7 +4,13 @@ A keylogger is a program designed to record every keystroke made by a user on a 
 
 HOW IT WORK'S
 
-1.IMPORTING LIBRARY The pynput.keyboard module is imported to listen to keyboard events. 2.on_press FUNCTION This function is called every time a key is pressed. It logs the key to a file named keylog.txt.For regular keys, it logs the character.For special keys (like shift, ctrl), it logs the key name. 3.on_release FUNCTION This function checks if the esc key is pressed and stops the listener if it is. 4.LISTENER SETUP The keyboard.Listener is initialized with the on_press and on_release functions and started with listener.join().
+1.IMPORTING LIBRARY The pynput.keyboard module is imported to listen to keyboard events. 
+
+2.on_press FUNCTION This function is called every time a key is pressed. It logs the key to a file named keylog.txt.For regular keys, it logs the character.For special keys (like shift, ctrl), it logs the key name.
+
+3.on_release FUNCTION This function checks if the esc key is pressed and stops the listener if it is. 
+
+4.LISTENER SETUP The keyboard.Listener is initialized with the on_press and on_release functions and started with listener.join().
 
 ETHICAL CONSIDERATION
 
